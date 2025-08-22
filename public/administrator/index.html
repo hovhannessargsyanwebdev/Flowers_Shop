@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html class="bx-core bx-win bx-no-touch bx-no-retina bx-chrome bx-boxshadow bx-borderradius bx-flexwrap bx-boxdirection bx-transition bx-transform">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Авторизация - Цветовня. Доставка цветов</title>
+		<link href="style.css" type="text/css"  rel="stylesheet" />
+		<script src="./main.js" defer></script>
+    
+	  <link href="/administrator/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="/administrator/summernote-0.9.0-dist/summernote.min.css" rel="stylesheet">
+
+    <script src="/administrator/js/jQueryv3.5.js"></script>
+
+    <script src="/administrator/js/bootstrap.min.js" ></script>
+
+    <script src="/administrator/summernote-0.9.0-dist/summernote.min.js" ></script>
+
+
+		<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.js"></script> -->
+
+	</head>
+	<body id="bx-admin-prefix" class="" style="overflow: auto;">
+		<div style="display: block; height: 478px;" id="window_wrapper">
+			<table class="adm-main-wrap">
+				<tbody>
+					<tr>
+						<td class="adm-header-wrap" colspan="2">
+							<div id="bx-panel" class="adm-header">
+								<div class="adm-header-left">
+									<div class="adm-header-btn-wrap">
+										<a hidefocus="true" href="#" id="bx-panel-view-tab" class="adm-header-btn adm-header-btn-site" title="Перейти в режим просмотра сайта">Сайт</a>
+										<a hidefocus="true" href="#" class="adm-header-btn adm-header-btn-admin">Администрирование</a>
+									</div>
+									<span class="adm-header-notif-block" id="adm-header-notif-block" onclick="BX.adminInformer.Toggle(this);" title="Просмотр уведомлений">
+										<span class="adm-header-notif-icon"></span>
+										<span class="adm-header-notif-counter" id="adm-header-notif-counter">4</span>
+									</span>
+									<a id="bx_top_panel_button_MCaJZoyal9" href="#" class="adm-header-setting-btn" title="Настройки текущего модуля" hidefocus="true" onfocus="this.blur();">Настройки</a>
+								</div>
+								<div class="adm-header-right">
+									<div class="adm-header-search-block" id="bx-search-box">
+										<input class="adm-header-search" id="bx-search-input" onfocus="if (this.value=='поиск...') {this.value=''; BX.addClass(this.parentNode,'adm-header-search-block-active');}" value="поиск..." onblur="if (this.value==''){this.value='поиск...'; BX.removeClass(this.parentNode,'adm-header-search-block-active');}" type="text" autocomplete="off">
+										<a href="#" onclick="BX('bx-search-input').value=''; BX('bx-search-input').onblur();" class="adm-header-search-block-btn"></a>
+									</div>
+									<div class="adm-header-right-block">
+										<a hidefocus="true" href="#" class="adm-header-user-block" onfocus="this.blur()">Карен</a>
+										<a hidefocus="true" href="#" class="adm-header-exit" id="bx-panel-logout" title="Выход из системы">Выйти</a>
+									</div>
+								</div>
+								<div	div class="adm-header-bottom"></div>
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="adm-left-side-wrap" id="menu_mirrors_cont">
+							<div class="adm-left-side" data-width="356" id="bx_menu_panel">
+								<div class="adm-menu-wrapper" style="overflow:hidden;">
+									<div class="adm-main-menu">
+										<a href="#" class="adm-default adm-main-menu-item adm-desktop" onclick="BX.adminMenu.GlobalMenuClick('desktop'); return false;" onfocus="this.blur();" id="global_menu_desktop">
+											<div class="adm-main-menu-item-icon"></div>
+											<div class="adm-main-menu-item-text">Рабочий стол</div>
+											<div class="adm-main-menu-hover"></div>
+										</a>
+										<span class="adm-default adm-main-menu-item adm-content" onclick="BX.adminMenu.GlobalMenuClick('content'); return false;" id="global_menu_content">
+											<div class="adm-main-menu-item-icon"></div>
+											<div class="adm-main-menu-item-text">Контент</div>
+											<div class="adm-main-menu-hover"></div>
+										</span>
+										<span class="adm-default adm-main-menu-item adm-marketing" onclick="BX.adminMenu.GlobalMenuClick('marketing'); return false;" id="global_menu_marketing">
+											<div class="adm-main-menu-item-icon"></div>
+											<div class="adm-main-menu-item-text">Маркетинг</div>
+											<div class="adm-main-menu-hover"></div>
+										</span>
+										<span class="adm-default adm-main-menu-item adm-store" onclick="BX.adminMenu.GlobalMenuClick('store'); return false;" id="global_menu_store">
+											<div class="adm-main-menu-item-icon"></div>
+											<div class="adm-main-menu-item-text">Магазин</div>
+											<div class="adm-main-menu-hover"></div>
+										</span>
+										<span class="adm-default adm-main-menu-item adm-services" onclick="BX.adminMenu.GlobalMenuClick('services'); return false;" id="global_menu_services">
+											<div class="adm-main-menu-item-icon"></div>
+											<div class="adm-main-menu-item-text">Сервисы</div>
+											<div class="adm-main-menu-hover"></div>
+										</span>
+										<span class="adm-default adm-main-menu-item adm-yamarket" onclick="BX.adminMenu.GlobalMenuClick('yamarket'); return false;" id="global_menu_yamarket">
+											<div class="adm-main-menu-item-icon"></div>
+											<div class="adm-main-menu-item-text">Маркет для продавцов</div>
+											<div class="adm-main-menu-hover"></div>
+										</span>
+										<span class="adm-default adm-main-menu-item adm-analytics" onclick="BX.adminMenu.GlobalMenuClick('analytics'); return false;" id="global_menu_analytics">
+											<div class="adm-main-menu-item-icon"></div>
+											<div class="adm-main-menu-item-text">Аналитика</div>
+											<div class="adm-main-menu-hover"></div>
+										</span>
+										<a href="#" class="adm-default adm-main-menu-item adm-marketPlace" onclick="BX.adminMenu.GlobalMenuClick('marketPlace'); return false;" onfocus="this.blur();" id="global_menu_marketPlace">
+											<div class="adm-main-menu-item-icon"></div>
+											<div class="adm-main-menu-item-text">Marketplace</div>
+											<div class="adm-main-menu-hover"></div>
+										</a>
+										<span class="adm-default adm-main-menu-item adm-crm-site-master" onclick="BX.adminMenu.GlobalMenuClick('crm-site-master'); return false;" id="global_menu_crm-site-master">
+											<div class="adm-main-menu-item-icon"></div>
+											<div class="adm-main-menu-item-text">Переход в Битрикс24</div>
+											<div class="adm-main-menu-hover"></div>
+										</span>
+										<span class="adm-default adm-main-menu-item adm-settings adm-main-menu-item-active" onclick="BX.adminMenu.GlobalMenuClick('settings'); return false;" id="global_menu_settings">
+											<div class="adm-main-menu-item-icon"></div>
+											<div class="adm-main-menu-item-text">Настройки</div>
+											<div class="adm-main-menu-hover"></div>
+										</span>
+										<span class="adm-default adm-main-menu-item adm-global_menu_aspro" onclick="BX.adminMenu.GlobalMenuClick('global_menu_aspro'); return false;" id="global_menu_global_menu_aspro">
+											<div class="adm-main-menu-item-icon"></div>
+											<div class="adm-main-menu-item-text">Аспро</div>
+											<div class="adm-main-menu-hover"></div>
+										</span>
+									</div>
+								</div>
+							</div>
+						</td>
+						<td class="adm-workarea-wrap adm-workarea-wrap-top">
+							<div class="adm-workarea adm-workarea-page" id="adm-workarea" style="opacity: 1;">
+								<div class="adm-navchain" id="main_navchain">
+									<a class="adm-navchain-item" href="#">
+										<span class="adm-navchain-item-text adm-navchain-item-desktop">Рабочий стол</span>
+									</a>
+									<span class="adm-navchain-item" id="bx_admin_chain_delimiter_">
+										<span class="adm-navchain-delimiter"></span>
+									</span>
+									<a href="javascript:void(0)" class="adm-navchain-item" id="bx_admin_chain_item_global_menu_settings">
+										<span class="adm-navchain-item-text">Настройки</span>
+									</a>
+									<span class="adm-navchain-item" id="bx_admin_chain_delimiter_global_menu_settings">
+										<span class="adm-navchain-delimiter"></span>
+									</span>
+									<a href="javascript:void(0)" class="adm-navchain-item" id="bx_admin_chain_item_menu_system">
+										<span class="adm-navchain-item-text">Настройки продукта</span>
+									</a>
+									<span class="adm-navchain-item" id="bx_admin_chain_delimiter_menu_system">
+										<span class="adm-navchain-delimiter"></span>
+									</span>
+									<a href="javascript:void(0)" class="adm-navchain-item" id="bx_admin_chain_item_menu_composite">
+										<span class="adm-navchain-item-text">Композитный сайт</span>
+									</a>
+									<span class="adm-navchain-item" id="bx_admin_chain_delimiter_menu_composite">
+										<span class="adm-navchain-delimiter"></span>
+									</span>
+									<a class="adm-navchain-item" href="/setings.php">
+										<span class="adm-navchain-item-text">Настройки</span>
+									</a>
+								</div>
+
+								<form method="POST" name="composite_form" action="/bitrix/admin/composite.php">
+									<div class="adm-detail-block" id="tabControl_layout">
+										<div class="adm-detail-content-wrap">
+											<div class="adm-detail-content adm-detail-content-without-bg" id="autocomposite">
+												<div class="adm-detail-content-item-block">
+													<table class="adm-detail-content-table edit-table" id="autocomposite_edit_table">
+														<tbody>
+															<tr>
+																<td>
+																	<div class="adm-composite-container">
+
+																		<div class="adm-composite-content adm-composite-first-block">
+																			<h2 class="adm-composite-title-container">
+																				<span class="adm-composite-subtitle">Технология</span>
+																				<span class="adm-composite-title">Автокомпозитный сайт</span>
+																			</h2>
+																								<div class="adm-composite-video-container">
+																					<div class="adm-composite-video-block">
+																						<iframe class="adm-composite-video" src="https://www.youtube.com/embed/jo4A4Wqlksc" frameborder="0" allowfullscreen=""></iframe>
+																					</div>
+																				</div>
+																							<div class="adm-composite-title-description">Дайте своему сайту преимущество перед конкурентами.<br>Любой сайт на платформе «1C-Битрикс» может работать по композитной технологии.</div>
+																			<div class="adm-composite-blocks-content">
+																				<div class="adm-composite-blocks-content-part1">Отклик сайта в 100 раз быстрее</div>
+																				<div class="adm-composite-blocks-content-part2">Лучшее ранжирование сайтов в Яндекс и Google</div>
+																				<div class="adm-composite-blocks-content-part3">Значительный рост конверсии интернет-магазина</div>
+																				<div class="clb"></div>
+																			</div>
+																		</div>
+
+																		<div class="adm-composite-content adm-composite-description-block">
+																			<h2 class="adm-composite-description-block-title">АвтоКомпозит — просто и доступно</h2>
+																			<p>Уникальная технология производства сайтов объединяет в себе высокую скорость загрузки статического сайта и все возможности динамического сайта.</p>
+																			<table class="adm-composite-description-block-list">
+																				<tbody><tr>
+																					<td class="adm-composite-description-block-list-item-icon"><span class="adm-composite-description-block-list-item-setting"></span></td>
+																					<td class="adm-composite-description-block-list-item">Все настройки выполняются автоматически, без привлечения разработчиков.</td>
+																				</tr>
+																				<tr>
+																					<td class="adm-composite-description-block-list-item-icon"><span class="adm-composite-description-block-list-item-speed"></span></td>
+																					<td class="adm-composite-description-block-list-item">Вы не заметите технических сложностей, вы просто будете знать, что ваш сайт быстрее других! Чтобы включить, достаточно просто нажать кнопку, остальные настройки мы сделаем за вас автоматически.</td>
+																				</tr>
+																				<tr>
+																					<td class="adm-composite-description-block-list-item-icon"><span class="adm-composite-description-block-list-item-page"></span></td>
+																					<td class="adm-composite-description-block-list-item">Пользователь мгновенно получает контент страницы.</td>
+																				</tr>
+																			</tbody></table>
+																		</div>
+
+																						<div class="adm-composite-content adm-composite-status-block">
+																				<div class="adm-composite-status">
+																					<span class="adm-composite-on-icon"></span> Автокомпозитный режим включен					</div>
+																			</div>
+
+																			<div class="adm-composite-content adm-composite-status-block">
+																				<input type="submit" class="adm-btn" name="autocomposite_mode_button" title="Выключить АвтоКомпозит" value="Выключить АвтоКомпозит">
+																				<input type="hidden" name="auto_composite" value="N">
+																			</div>
+																		
+																		<div class="adm-composite-content adm-composite-activate adm-composite-toparrow">
+																			<div class="adm-composite-activate-title">Проверьте ваш сайт, он работает невероятно быстро!</div>
+																			<div class="adm-composite-activate-content">
+																				<p>Убедитесь, что с новой технологией «АвтоКомпозит» ваш сайт стал работать невероятно быстро. Взгляните на него глазами обычного посетителя:</p>
+																				<ul class="adm-composite-activate-content-task-list">
+																					<li class="adm-composite-activate-content-task-list-item">Запустите новое окно браузера в режиме «инкогнито».</li>
+																					<li class="adm-composite-activate-content-task-list-item">Зайдите на главную страницу сайта, убедитесь, что с АвтоКомпозитом она загружается практически мгновенно.</li>
+																					<li class="adm-composite-activate-content-task-list-item">Проверьте типовые сценарии своих посетителей. Если у вас интернет-магазин, рекомендуем пройти полный сценарий от выбора товара в каталоге до оформления и оплаты заказа.</li>
+																				</ul>
+																			</div>
+																		</div>
+
+																		<div>
+																			<label>text</label>
+																			<textarea name="text" class="form-control" id="summernote"></textarea>
+																		</div>
+
+
+																	</div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="adm-detail-content-btns-wrap" style="display: block; height: 59px;"></div>
+											<div class="adm-detail-content-btns-wrap bx-fixed-bottom adm-detail-content-btns-fixed" id="tabControl_buttons_div" style="left: 378px; width: 1504px;">
+												<div class="adm-detail-content-btns">
+													<div onclick="tabControl.ToggleFix('bottom')" class="adm-detail-pin-btn" title="Открепить панель"></div>
+													<input type="submit" id="composite_save_button" name="composite_save_opt" class="adm-btn-save" style="visibility: hidden" value="Сохранить настройки">
+												</div>
+											</div>
+										</div>
+									</div>
+									<input type="hidden" id="tabControl_active_tab" name="tabControl_active_tab" value="autocomposite">
+									<input type="hidden" name="sessid" id="sessid" value="d954d87e21a904e0bf536be7cf800018">	<input type="hidden" name="lang" value="ru">
+								</form>
+							</div>
+						</td>
+					</tr>
+
+					<tr class="adm-footer-wrap">
+						<td class="adm-left-side-wrap"></td>
+						<td class="adm-workarea-wrap">
+							<table cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tbody>
+									<tr>
+										<td>
+											<a href="#">Ссылка</a>. © 2002-2022
+										</td>
+										<td align="right">
+											<a href="#">Правообладатели</a>
+											&nbsp;&nbsp;|&nbsp;&nbsp;
+											<a href="#">site</a>
+											&nbsp;&nbsp;|&nbsp;&nbsp;
+											<a href="#" class="adm-main-support-link">Техподдержка</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<script type="text/javascript">
+			// $('#summernote').summernote({
+			// 	placeholder: 'Введите текст',
+			// 	height: 100,
+			// 	focus: true
+			// });
+
+			$(document).ready(function() {
+				$('#summernote').summernote({
+					height: 300,
+					toolbar: [
+						// Здесь настраиваем доступные кнопки
+						['style', ['style']],
+						['font', ['bold', 'italic', 'underline', 'clear']],
+						['fontsize', ['fontsize']],
+						['color', ['color']], // <<< Добавляем инструмент выбора цвета текста и фона
+						['para', ['ul', 'ol', 'paragraph']],
+						['table', ['table']],
+						['insert', ['link', 'picture', 'video']],
+						['view', ['fullscreen', 'codeview', 'help']]
+					],
+					callbacks: {
+						onImageUpload: function(files) {
+							sendFile(files[0], $(this));
+						}		
+					}
+  			});
+
+			function sendFile(file, editor) {
+    	var data = new FormData();
+    	data.append("image", file);
+			data.append("action", "wysiwyg_image_upload");
+    	$.ajax({
+				data: data,
+				type: "POST",
+				url: '/ваш-url-загрузки', // замените на ваш URL для загрузки изображений
+				cache: false,
+				contentType: false,
+				processData: false,
+				success: function(url) {
+					editor.summernote('insertImage', url);
+				}
+    });
+  }
+		});
+		</script>
+	</body>
+</html>

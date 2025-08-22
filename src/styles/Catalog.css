@@ -1,0 +1,12 @@
+.catalog-page {
+  font-weight: 401;
+  font-family: "Montserrat";
+  position: relative;
+  z-index: 1;
+}
+
+/* delivery */
+.img-responsive {
+  max-width: -webkit-fill-available;
+  max-height: 500px;
+}

@@ -1,0 +1,331 @@
+
+{
+  "buketDnya": [
+  {
+  "id": "37",
+  "url": "/catalog/tsvety_poshtuchno/444",
+  "title": "Ромашки",
+  "articul": "5001",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/776/04gpvyt6hy2rumorfolg7ztov5j17zq9.JPG",
+  "slug": "Ромашки",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "12000",
+  "old_id": "444",
+  "active": "1",
+  "created_at": "2022-04-21 10:45:19",
+  "rating": 3.7,
+  "count": "0",
+  "liked": 0
+  },
+  {
+  "id": "38",
+  "url": "/catalog/tsvety_poshtuchno/445",
+  "title": "Орхидеи микс",
+  "articul": "7998",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/a4d/t7m8y3lxu3xsvkhlc6ryhxf4cltv36ro.JPG",
+  "slug": "Орхидеи",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "35000",
+  "old_id": "445",
+  "active": "1",
+  "created_at": "2022-04-21 10:55:32",
+  "rating": 3.7,
+  "count": "999",
+  "liked": 0
+  },
+  {
+  "id": "39",
+  "url": "/catalog/tsvety_poshtuchno/446",
+  "title": "Герберы микс",
+  "articul": "7993",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/c49/z6vkwsydq5y2en8vk1c0ios9wh67wl4z.JPG",
+  "slug": "Герберы",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "22000",
+  "old_id": "446",
+  "active": "1",
+  "created_at": "2022-04-21 11:00:19",
+  "rating": 3.7,
+  "count": "0",
+  "liked": 0
+  },
+  {
+  "id": "40",
+  "url": "/catalog/tsvety_poshtuchno/447",
+  "title": "Белые гипсофилы",
+  "articul": "7990",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/244/fru8d5wptakc209rcigc9tn8psgj1ohv.JPG",
+  "slug": "admin_8",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "30000",
+  "old_id": "447",
+  "active": "1",
+  "created_at": "2022-04-21 11:20:23",
+  "rating": 3.7,
+  "count": "0",
+  "liked": 0
+  }
+  ],
+  "gotoviBuket": [
+  {
+  "id": "39",
+  "url": "/catalog/tsvety_poshtuchno/446",
+  "title": "Герберы микс",
+  "articul": "7993",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/c49/z6vkwsydq5y2en8vk1c0ios9wh67wl4z.JPG",
+  "slug": "Герберы",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "22000",
+  "old_id": "446",
+  "active": "1",
+  "created_at": "2022-04-21 11:00:19",
+  "rating": 3.7,
+  "count": "0",
+  "liked": 0
+  },
+  {
+  "id": "40",
+  "url": "/catalog/tsvety_poshtuchno/447",
+  "title": "Белые гипсофилы",
+  "articul": "7990",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/244/fru8d5wptakc209rcigc9tn8psgj1ohv.JPG",
+  "slug": "admin_8",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "30000",
+  "old_id": "447",
+  "active": "1",
+  "created_at": "2022-04-21 11:20:23",
+  "rating": 3.7,
+  "count": "0",
+  "liked": 0
+  },
+  {
+  "id": "41",
+  "url": "/catalog/tsvety_poshtuchno/448",
+  "title": "Хризантемы",
+  "articul": "7985",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/adf/dl4zm442k3zanfqqr5rylgrtk7hvtu5g.JPG",
+  "slug": "Хризантемы",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "30000",
+  "old_id": "448",
+  "active": "1",
+  "created_at": "2022-04-21 11:28:52",
+  "rating": 3.7,
+  "count": "999",
+  "liked": 0
+  },
+  {
+  "id": "42",
+  "url": "/catalog/tsvety_poshtuchno/449",
+  "title": "Альстромерии",
+  "articul": "7979",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/6d3/7mq0iv5jdx3p8q412xi08w13zrxosqug.JPG",
+  "slug": "Альстромерии",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "25000",
+  "old_id": "449",
+  "active": "1",
+  "created_at": "2022-04-21 11:37:19",
+  "rating": 3.7,
+  "count": "999",
+  "liked": 0
+  },
+  {
+  "id": "43",
+  "url": "/catalog/tsvety_poshtuchno/475",
+  "title": "Голубые гортензии",
+  "articul": "7878",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/f13/78zf9o7u3h90vdyshm21mng1yepim4mk.JPG",
+  "slug": "Голубые гортензии",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "65000",
+  "old_id": "475",
+  "active": "1",
+  "created_at": "2022-04-21 16:41:23",
+  "rating": 3.7,
+  "count": "999",
+  "liked": 0
+  },
+  {
+  "id": "44",
+  "url": "/catalog/tsvety_poshtuchno/478",
+  "title": "Синие ирисы",
+  "articul": "7870",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/732/k3oy8uii2s9w3mscevg5e8a8in4rp4n9.JPG",
+  "slug": "Синие ирисы",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "15000",
+  "old_id": "478",
+  "active": "1",
+  "created_at": "2022-04-21 16:50:14",
+  "rating": 3.7,
+  "count": "0",
+  "liked": 0
+  }
+  ],
+  "podarkov": [
+  {
+  "id": "39",
+  "url": "/catalog/tsvety_poshtuchno/446",
+  "title": "Герберы микс",
+  "articul": "7993",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/c49/z6vkwsydq5y2en8vk1c0ios9wh67wl4z.JPG",
+  "slug": "Герберы",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "22000",
+  "old_id": "446",
+  "active": "1",
+  "created_at": "2022-04-21 11:00:19",
+  "rating": 3.7,
+  "count": "0",
+  "liked": 0
+  },
+  {
+  "id": "40",
+  "url": "/catalog/tsvety_poshtuchno/447",
+  "title": "Белые гипсофилы",
+  "articul": "7990",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/244/fru8d5wptakc209rcigc9tn8psgj1ohv.JPG",
+  "slug": "admin_8",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "30000",
+  "old_id": "447",
+  "active": "1",
+  "created_at": "2022-04-21 11:20:23",
+  "rating": 3.7,
+  "count": "0",
+  "liked": 0
+  },
+  {
+  "id": "41",
+  "url": "/catalog/tsvety_poshtuchno/448",
+  "title": "Хризантемы",
+  "articul": "7985",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/adf/dl4zm442k3zanfqqr5rylgrtk7hvtu5g.JPG",
+  "slug": "Хризантемы",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "30000",
+  "old_id": "448",
+  "active": "1",
+  "created_at": "2022-04-21 11:28:52",
+  "rating": 3.7,
+  "count": "999",
+  "liked": 0
+  },
+  {
+  "id": "42",
+  "url": "/catalog/tsvety_poshtuchno/449",
+  "title": "Альстромерии",
+  "articul": "7979",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/6d3/7mq0iv5jdx3p8q412xi08w13zrxosqug.JPG",
+  "slug": "Альстромерии",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "25000",
+  "old_id": "449",
+  "active": "1",
+  "created_at": "2022-04-21 11:37:19",
+  "rating": 3.7,
+  "count": "999",
+  "liked": 0
+  },
+  {
+  "id": "43",
+  "url": "/catalog/tsvety_poshtuchno/475",
+  "title": "Голубые гортензии",
+  "articul": "7878",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/f13/78zf9o7u3h90vdyshm21mng1yepim4mk.JPG",
+  "slug": "Голубые гортензии",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "65000",
+  "old_id": "475",
+  "active": "1",
+  "created_at": "2022-04-21 16:41:23",
+  "rating": 3.7,
+  "count": "999",
+  "liked": 0
+  },
+  {
+  "id": "44",
+  "url": "/catalog/tsvety_poshtuchno/478",
+  "title": "Синие ирисы",
+  "articul": "7870",
+  "smal_text": "",
+  "mane_image": "/upload/iblock/732/k3oy8uii2s9w3mscevg5e8a8in4rp4n9.JPG",
+  "slug": "Синие ирисы",
+  "mane_category": "2",
+  "categories": [
+  "{\"id\":2,\"title\":\"Цветы поштучно\",\"slug\":\"/catalog/tsvety_poshtuchno\"}"
+  ],
+  "price": "15000",
+  "old_id": "478",
+  "active": "1",
+  "created_at": "2022-04-21 16:50:14",
+  "rating": 3.7,
+  "count": "0",
+  "liked": 0
+  }
+  ]
+  }
+  
+  

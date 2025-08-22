@@ -1,0 +1,37 @@
+.btn-load-more {
+  background-color: #888383;
+  border: 1px solid transparent;
+  color: #fff;
+  font-family: "Trebuchet MS";
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 592px;
+  width: 100%;
+  border-radius: 15px;
+  margin: 48px auto;
+  padding: 2px;
+  transition: all .2s ease;
+  filter: drop-shadow(1px 1.732px 1px rgba(0,0,0,0.3));
+}
+
+.btn-load-more:hover {
+  background-color: #fff;
+  color: #23615c;
+  border-color: #23615c;
+}
+
+@media (width <= 768px) {
+  .btn-load-more {
+    width: 275px;
+    font-size: 18px;
+  }
+}
+
+@media (width <= 510px) {
+  .btn-load-more {
+    margin: 15px auto 0;
+    font-size: 10px;
+    max-width: 150px;
+  }
+}

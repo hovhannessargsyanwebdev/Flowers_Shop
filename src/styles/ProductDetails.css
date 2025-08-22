@@ -1,0 +1,101 @@
+.product-page {
+  /* padding-top: 46px !important; */
+  padding-bottom: 10px !important;
+  font-family: "Trebuchet MS";
+}
+
+.product-page-container {
+  display: flex;
+  background-color: #fff;
+  border-bottom-right-radius: 190px;
+  max-width: 1370px;
+  width: 100%;
+  padding: 50px 50px 20px;
+  margin: auto;
+}
+
+.product-page-content {
+  margin-left: 35px;
+  width: -webkit-fill-available;
+}
+
+.go-back-btn,
+.wishlist-btn-mobile-size {
+  display: none
+}
+
+@media(width <= 1200px) {
+  .product-page-container { padding: 0 15px 15px }
+  .product-page-content { margin-left: 20px }
+}
+
+@media (width <= 992px) {
+  .product-page-container { border-bottom-right-radius: 100px }
+  .product-page-content { margin-left: 12px }
+}
+
+@media (width <= 768px) {
+  .product-page { margin-top: 5px !important }
+  /* .product-page { margin-top: 50px !important } */
+
+  .product-page-container { flex-direction: column }
+  
+  .product-page-content {
+    margin-left: 0;
+    padding: 25px 0 0;
+  }
+
+  .product-page-content > div { align-items: center }
+  
+  .go-back-btn, 
+  .wishlist-btn-mobile-size {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    transform: translate(15px, 5px);
+    font-size: 54px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Montserrat";
+    /* background-color: transparent; */
+    background-color: rgba(0, 0, 0, 0.001);
+    -webkit-tap-highlight-color: transparent;
+    filter: drop-shadow(1px 1.732px 1.5px rgba(0, 0, 0, 0.75));
+    /* transition: color 0.3s; */
+  }
+
+  .go-back-btn:hover { color: #acacac }
+
+  .wishlist-btn-mobile-size {
+    transform: translate(-10px, 0px);
+    right: 0;
+  }
+
+  .wishlist-btn-mobile-size .card-heart-icon {
+    width: 50px;
+    height: 45px;
+    fill: #fff;
+  }
+
+  .wishlist-btn-mobile-size:hover .card-heart-icon {
+    fill: #fff;
+  }
+}
+
+@media (width <= 510px) {
+  .product-page-container {
+    padding: 0 10px 10px;
+    border-bottom-right-radius: 50px;
+  }
+  .product-page-content { padding: 25px 0 0 }
+
+  .go-back-btn {
+    transform: translate(15px, 8px);
+    font-size: 36px;
+  }
+  .wishlist-btn-mobile-size .card-heart-icon {
+    width: 30px;
+    height: 30px;
+  }
+}

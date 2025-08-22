@@ -1,0 +1,413 @@
+.header {
+  background-color: #23615c;
+  font-family: 'Montserrat';
+  font-weight: 401;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 19;
+}
+
+.nav-nav { padding: 0 50px }
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 0;
+  border-bottom: 2px solid #ddd6d6;
+}
+
+.header a, .header span, .header p, .header button {
+  color: var(--text-color-white);
+}
+
+.header-main-info-btn.btn-link {
+  border: 0 !important;
+  --bs-btn-border-width: 0;
+  padding-top: 0;
+  font-weight: 401;
+  text-underline-offset: 5px;
+}
+
+.header-main-contacts {
+  max-width: 480px;
+  width: 100%;
+}
+
+.header-main-contacts-whatsup-link {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.header-main-call-order-text { font-size: 18px }
+
+.header-main-call-order-text-sm {
+  display: block;
+  font-size: 12px;
+  line-height: 0;
+}
+
+.header-main-user-wrapp {
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-main-logo {
+  margin-top: 10px;
+  margin-bottom: 2px;
+ }
+
+.header-logo {
+  width: 185px;
+  height: 66px;
+}
+
+.header-main-info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.header-main-info-btn {
+  background-color: transparent; 
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 1.3;
+  border: none;
+  white-space: nowrap;
+}
+
+.btn-link:hover { /*  CHANGE BOOTSTRAP DEFAULT STYLE  */ 
+  color: #000 !important
+}
+
+.header-main-contacts-phone-link {
+  font-size: 23px;
+  font-family: "Myriad Pro";
+  display: block;
+  text-align: left;
+}
+
+.header-main-icons {
+  max-width: 196px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: -80px;
+  position: relative;
+}
+
+.header-search-input-wrapp {
+  display: flex;
+  position: relative;
+  max-width: 730px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+} 
+
+.header-search-input {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  padding: 10px;
+  padding-left: 50px;
+  border-radius: 10px;
+  border: 1px solid #888383;
+  font-weight: 401;
+}
+
+.header-search-input::placeholder { color: #888383 }
+
+.header-search-input-icon {
+  position: absolute;
+  z-index: 2;
+  top: 47%;
+  left: 2%;
+  width: 25px;
+  height: 25px;
+}
+
+.header-main-icons .btn {
+  --bs-btn-padding-x: 0;
+  --bs-btn-padding-y: 0;
+  transition: all .3s;
+}
+
+.header-search-button {
+  padding: 0px 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 401;
+  background-color: #23615c;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.header-main-icon-btn-wrapp { border: none !important }
+.header-main-icon-btn-wrapp:active, 
+.header-main-icon-btn-wrapp:focus {
+  border-color: transparent !important
+}
+
+.header-main-icons a,
+.header-main-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.header-main-icon {
+  filter: drop-shadow(2px 3.464px 1.5px #000);
+  fill: #fff;
+}
+
+.header-main-icon-btn {
+  width: 25px;
+  height: 25px;
+  filter: drop-shadow(1.5px 2.598px 1.5px rgba(0, 0, 0, 0.48));
+  background-color: transparent;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1225px;
+  width: 100%;
+  margin: auto;
+  padding: 7px 0px;
+}
+
+.nav-link {
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.navbar-active-link {
+  background-color: #23615c !important; 
+  color: #fff !important;
+}
+
+.nav-mobile { display: none }
+
+@media (width <= 1400px) {
+  .header-nav { padding: 15px }
+}
+
+@media (width <= 1200px) {
+  .header-main {
+    padding: 20px 15px 0;
+  }
+
+  .header-main-call-order-text-sm { line-height: 20px }
+  .header-main-contacts,
+  .header-main-user-wrapp { width: initial }
+
+  .header-main-contacts-whatsup-link :first-child { display: block }
+  .header-main-work-hours { margin-left: 30px }
+
+  .header-main-logo, .header-logo {
+    max-width: 165px;
+    text-align: center;
+  }
+
+  .header-nav {
+    padding: 15px 0;
+  }
+  .nav-nav {
+    padding: 0 15px;
+  }
+}
+
+@media (width <= 992px) {
+  .header-main-contacts :first-child,
+  .header-main-user-wrapp {
+    flex-direction: column;
+    max-width: 300px;
+  }
+
+  .header-main-contacts {
+    width: 38%;
+    max-width: 255px;
+    margin-right: 15px;
+  }
+
+  .header-main-contacts-whatsup-link :first-child { display: initial }
+  .header-main-work-hours { margin-left: initial }
+
+  .header-main-work-hours p { display: inline-block }
+  .header-main-icons {
+    margin-left: auto;
+    order: -1;
+  }
+
+  .header-main-info { align-items: end }
+
+  .nav-link { font-size: 14px }
+}
+
+  /* Mobile */
+@media (width <= 768px) {
+  .header-main {
+    padding: 20px 20px 0;
+  }
+
+  .header-main-user-wrapp {
+    flex-direction: column-reverse;
+    align-items: end;
+    margin-top: 6px;
+    width: 50%;
+  }
+  .header-main-contacts { display: none }
+
+  .header-main-info {
+    align-items: initial;
+    margin-top: 15px;
+  }
+
+  .header-main-logo { width: 50% }
+
+  .header-main-logo p {
+    text-align: center;
+    line-height: 140%;
+  }
+
+  .header-main-info-btn {
+    text-align: center;
+    padding-top: 1.5px;
+    text-decoration: initial;
+    font-size: 16px;
+    transform: scale(0.8) translate(15px, -5px);
+  }
+
+  .header-main-info-btn:nth-child(2) { order: -1 }
+
+  .header-main-icons {
+    margin: initial;
+    order: initial;
+  }
+
+  .header-addres-text-mobile { display: block }
+
+  nav { display: none }
+
+  /* mobile */
+  .nav-mobile-translate { transform: translate(0px, 36px) }
+
+  .nav-mobile {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #d0cccc;
+    position: relative;
+    z-index: 14;
+  }
+
+  .nam-mobile-item {
+    width: 33.9%;
+    text-align: center;
+  }
+
+  .nam-mobile-item:not(:last-child) {
+    border-right: 3px solid #d0cccc;
+  }  
+
+  .header .nav-mobile_link {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #000 ;
+    background-color: #fff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    display: block;
+    width: 100%;
+    transition: all .2s;
+  }
+  
+  .navbar-active-link {
+    background-color: #23615c !important; 
+    color: #fff !important;
+  }
+
+  .header .nav-mobile_link:hover {
+    background-color: #23615c;
+    color: #fff !important;
+  }
+}
+
+@media (width <= 576px) {
+  .header-main {
+    justify-content: space-between;
+    padding: 15px 15px 5px;
+  }
+}
+
+@media (width <= 510px) {
+  .header-main {
+    padding: 15px 10px 5px;
+    margin-top: 0;
+  }
+
+  .header-main-user-wrapp {
+    max-width: 150px;
+  }
+
+  .header-main-icons a, .header-main-icon {
+    width: 20px;
+    height: 20px;
+  } 
+  
+
+  .header-main-logo, .header-logo { max-width: 105px }
+
+  .header-logo {
+    width: 108px;
+    height: initial;
+  }
+
+  .header-search-input { width: 95% }
+  .header-search-input-wrapp > input:focus,
+  .header-search-input-wrapp > input:target,
+  .header-search-input-wrapp > input:active {   
+    right: -18px;
+  }
+
+  .header-search-input-icon {
+    top: 50%;
+    left: 5%;
+    width: 20px;
+    height: 20px;
+  }
+
+ .hegader .nav-mobile_link,
+  .header-main-info-btn {
+    padding-left: 0;
+    padding-right: 0;
+    /* font-size: 10px;  */
+    line-height: 1;
+    transform: scale(0.6) translate(90px, -5px);
+  }
+
+  .header-main-logo p {
+    line-height: 24px;
+    font-size: 10px;
+  }
+
+  .header .nav-mobile_link {
+    font-size: 11px;
+    letter-spacing: initial;
+  }
+}

@@ -1,0 +1,155 @@
+.contacts-modal .modal-dialog h4 {
+  letter-spacing: 1px;
+  line-height: 49px;
+  color: #000101;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+/* .contacts-modal */
+.contacts-modal  .modal-content {
+  border: none;
+  border-radius: 0;
+  font-weight: 401;
+  max-height: 437px;
+  width: 511px;
+  height: 437px;
+  margin: auto;
+  transform: translate(0px, -50px);
+}
+
+.contacts-wrapp { margin-top: 20px }
+
+.contacts-wrapp  h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center
+}
+
+.contacts-item-list {
+  max-width: 319px;
+  margin: auto;
+  padding-left: 0 !important;
+}
+
+.contacts-item-list:first-child .contacts-item:first-child .contacts-link {
+  cursor: none;
+  background-color: #fff;
+}
+
+.contacts-item-list .contacts-item { margin-bottom: 35px }
+
+.contacts-text-wrapp { margin-left: 15px }
+
+.modal-backdrop { background-color: #323035 }
+
+.modal-backdrop.show { opacity: 0.278 }
+
+.contacts-link {
+  display: flex;
+}
+
+.contacts-link img {
+  width: 52px;
+  height: 52px;
+}
+
+.contacts-link .contacts-text-lg {
+  font-size: 25px;
+  line-height: initial;
+  color: #000101;
+  font-weight: 500;
+}
+
+.contacts-link .contacts-text-sm {
+  font-size: 20px;
+  line-height: initial;
+  color: #ddd;
+  font-weight: 401;
+  transition: color .3s;
+}
+
+.contacts-link:hover .contacts-text-sm {
+  color: #333 ;
+}
+
+
+.contact-icon-circle {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #66626b; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.contact-icon-circle svg {
+  fill: #66626b;
+  width: 24px;
+  height: 24px;
+}
+
+@media (width <= 1200px) {
+  /* .contacts-modal .modal-dialog { transform: translate(0, 218px) !important } */
+  .modal-content { transform: translate(0px, 6px) }
+}
+
+@media (width <= 992px) {
+  .modal-content { transform: translate(0px, 9px) }
+}
+
+@media (width <= 768px) {
+  .filter-dropdown-modal .modal-dialog {
+    top: 21%;
+  }
+  .modal-content { transform: translate(0, 0) }
+}
+
+@media (width <= 510px) {
+  .header-modal-contact-wrapp .modal-content { transform: translate(0px, -48px) }
+
+  .contacts-wrapp  h4 { font-size: 24px }
+  .contacts-item-list { margin-left: 2rem !Important }
+  .contacts-item-list .contacts-item { margin-bottom: 20px }
+  .contacts-link img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .contacts-link .contacts-text-lg { font-size: 18px }
+
+  .contacts-link .contacts-text-sm { font-size: 18px }
+}
+
+
+
+/* import styles from depracated flowers-belora.ru/contacts/ */
+.bottom-block {
+  font: 15px / 25px Montserrat, Arial, sans-serif;
+}
+.properties {
+  margin: 0 -16px 34px;
+}
+.property, .address {
+  margin: 0 -3px 0 0;
+  padding: 8px 0;
+}
+
+.font_upper {
+  font-size: 0.667em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.muted {
+  color: #999;
+}
+
+.darken {
+  color: #333;
+}

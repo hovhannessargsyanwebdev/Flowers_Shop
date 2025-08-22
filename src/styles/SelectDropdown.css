@@ -1,0 +1,28 @@
+@media (width > 768px) {
+   .header .nav-select-dropdown  { display: none !important }
+}
+
+.form-select  { display: none !important }
+.nav-select-dropdown {
+  width: -webkit-fill-available;
+  margin: 15px 20px;
+  padding: 3px 0;
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  color: #4c4a4f;
+  font-weight: 700;
+  font-family: "Montserrat";
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  outline: none;
+}
+
+.form-select:focus {
+  border-color: transparent !important;
+  box-shadow: 0 0 0 .25rem rgba(52, 141, 135, 0.365) !important;
+}
+
+.nav-select-dropdown option {
+  text-align: center;
+}

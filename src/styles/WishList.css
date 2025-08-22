@@ -1,0 +1,15 @@
+.wish-list-page {
+  margin-top: 50px;
+  position: relative;
+
+  .card-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin-top: 40px;
+  }
+}
+
+.wish-list-page > div {
+  background-color: initial;
+}

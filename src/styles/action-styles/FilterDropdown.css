@@ -1,0 +1,27 @@
+@media (width > 768px) {
+  .nav-select-dropdown { display: none }
+
+  .nav-select-dropdown {
+    width: -webkit-fill-available;
+    margin: 15px 20px;
+    padding: 3px 0;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    color: #4c4a4f;
+    font-weight: 700;
+    font-family: "Montserrat";
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    outline: none;
+  }
+}
+
+.filter-select-dropdown-btn {
+  font-size: 19px;
+  color: #686767;
+  font-weight: 700;
+  background-color: #f5f5f5;
+  padding: 3.3px 90px 3.3px 30px;
+  border-radius: 10px;
+}

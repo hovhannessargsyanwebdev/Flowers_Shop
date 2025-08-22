@@ -1,0 +1,465 @@
+.basket-page, .wish-list-page {
+  margin-top: 50px !important;
+  position: relative;
+}
+
+.basket-page .card-title,
+.wish-list-page .card-title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: 'Montserrat';
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.wish-list-card-title-link, 
+.basket-card-title-link {
+  width: 75%;
+  display: block;
+}
+
+.basket-card-title-link {
+  width: 100%;
+  display: block;
+}
+
+
+.basket-page > div, .wish-list-page > div {
+  background-color: initial;
+}
+
+.basket-page-title, .wish-list-page-title {
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 38px;
+  text-decoration: underline;
+  font-weight: 700;
+  text-underline-offset: 10px;
+}
+
+.basket-page-title-notfound {
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 30px  !important;
+}
+
+.basket-product-count,
+.wishlist-count  {
+  position: absolute;
+  top: -15px;
+  right: -11px;
+  width: 21px;
+  height: 21px;
+  z-index: 3;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background-color: #23615c;
+}
+
+  /* BASKET CARD */
+.basket-card .card, 
+.wish-list-card .card {
+  display: grid;
+  grid-template-columns: minmax(120px, 230px) 1fr minmax(110px, 470px);
+  padding: 40px 0;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #e4dede;
+}
+.wish-list-card .card {
+  grid-template-columns: minmax(120px, 227px) 1fr;
+}
+
+.basket-card .card-body,
+.wish-list-card .card-body {
+  padding: 25px 15px;
+}
+
+.basket-card-img, .wish-list-card-img {
+  max-height: 230px;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.basket-card .card-price,
+.wish-list-card .card-price {
+  font-weight: bold;
+  font-family: 'Montserrat';
+  font-size: 48px;
+  white-space: nowrap;
+  letter-spacing: 2.5px;
+  line-height: 40px;
+  order: 1;
+}
+
+.basket-card_calculate-wrapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
+}
+
+.wish-list-card_calculate-wrapp { width: 50% }
+
+.basket-page .card-calculate,
+.wish-list-page .card-calculate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  gap: 15px;
+}
+
+.basket-page .card_calculate,
+.wish-list-page { width: 100% }
+
+.basket-page .card_calculate div,
+.wish-list-page .card_calculate div {
+  order: -1;
+}
+
+.basket-card-btn-group,
+.wish-list-card-btn-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.basket-page .card_trash-btn,
+.wish-list-card_trash-btn,
+.wish-list-card_plus-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  color: #ada6a6;
+  border-bottom: 2px solid transparent;
+  transition: border linear .2s;
+  font-size: 19px;
+
+  &:hover {
+    border-bottom: 2px solid #23615c;
+  }
+}
+
+.basket-card_trash-btn-svg,
+.wish-list-card_trash-btn-svg,
+.wish-list-card-plus-svg {
+  width: 35px;
+  height: 35px;
+}
+
+.basket-card-delivery-text,
+.wish-list-card-delivery-text {
+  text-decoration: underline;
+  line-height: 10px;
+  margin-top: -20px;
+}
+
+.wish-list-card-delivery-text {
+  display: block;
+  margin-top: 20px;
+}
+
+.basket-card-textarea-wrapp { padding-top: 35px }
+
+.basket-card-textarea-wrapp .form-control {  
+  height: 120px;  
+  resize: none;
+  background-color: #f6f6f6;
+  margin-bottom: 0;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+.basket-card-textarea-wrapp ::-webkit-scrollbar {  /* style scrollbar */
+  width: 0;
+}
+
+.basket-card-textarea-wrapp .form-control:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 0.03rem rgba(35, 97, 92, .25);
+  background-color: #fff;
+}
+
+.basket-card-textarea-wrapp .form-label { font-size: 18px }
+
+
+.basket-all-products {
+  margin-top: 60px;
+  max-width: 815px;
+}
+
+.basket-all-products h3 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 38px;
+  font-weight: bold;
+  font-family: "Trebuchet MS";
+  margin-bottom: 30px;
+}
+
+.basket-all-products img {
+  max-width: 243px;
+  max-height: 250px;
+}
+
+.basket-all-products-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.basket-all-products-card h4 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 42px;
+  color: #656565;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+
+.basket-all-products-card .calculatte {
+  max-width: 140px;
+  width: 100%;
+  text-align: center; 
+}
+
+.basket-all-products-card p {
+  font-size: 35px;
+  font-weight: 401;
+  font-family: "Montserrat";
+}
+
+.basket-all-products-card .basket-all-products-card-text-wrapp {
+  max-width: 285px;
+  width: 100%;
+}
+
+/* @media (width <= 1200px) {} */
+
+@media (width <= 992px) {
+  .basket-page, .wish-list-page .card-title { font-size: 22px }
+
+  .wish-list-card_calculate-wrapp {
+    gap: 30px;
+    width: 70%
+  }
+
+  .basket-page .card-title, .wish-list-page .card-title {
+    font-size: 26px;
+    margin-top: 10px
+  }
+
+  .wish-list-page .card-title { margin-top: -25px }
+
+  .basket-card-img, .wish-list-card-img { max-height: 170px }
+
+  .basket-card .card-price, .wish-list-card .card-price {
+    max-width: 130px;
+    font-size: 36px
+  }
+
+  .basket-page .card_trash-btn, .wish-list-card_trash-btn, .wish-list-card_plus-btn { font-size: 16px }
+  .basket-card_calculate-wrapp { gap: 30px; }
+
+  .basket-card-textarea-wrapp .form-control { font-size: 20px }
+}
+
+@media (width <= 768px) {
+  .basket-page, .wish-list-page { margin-top: 15px !important }
+
+  .basket-card .card, .wish-list-card .card { padding: 15px 0 }
+
+  .basket-page-title, .wish-list-page-title { font-size: 24px }
+
+  .basket-card .card, .wish-list-card .card {
+    grid-template-columns: minmax(120px, 30%) 1fr minmax(110px, 100%);
+  }
+
+  .basket-card-textarea-wrapp {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    width: 100%;
+    box-sizing: border-box; 
+  }
+
+  .basket-card-textarea-wrapp { padding-top: 30px }
+
+  .basket-card .card-body,
+  .wish-list-card .card-body {
+    grid-row: 1;
+    grid-column: 3;
+    padding: 10px 0 10px 10px;
+  }
+
+  .wish-list-card_calculate-wrapp { width: 85% }
+
+  .basket-card .card-price, .wish-list-card .card-price {
+    font-size: 30px;
+  }
+
+  .basket-card-btn-group, .wish-list-card-btn-group {
+    margin-top: 0;
+  }
+
+  .basket-card-img, .wish-list-card-img {
+    max-height: 145px;
+    min-width: 145px;
+  }
+
+  .wish-list-card-title-link { width: 75% }
+
+  .basket-page .card-title,
+  .wish-list-page .card-title {  
+    font-size: 18px
+  }
+
+  .wish-list-page .card-title { margin-top: -38px }
+
+  .basket-card-delivery-text, .wish-list-card-delivery-text {
+    font-size: 12px;
+    /* transform: scale(0.8);
+    transform-origin: left; */
+    line-height: 17px;
+    margin-top: 0;
+    display: block;
+  }
+
+  .basket-page .card_trash-btn,
+  .wish-list-card_trash-btn,
+  .wish-list-card_plus-btn {
+    /* transform: scale(0.7); */
+    font-size: 12px;
+
+  }
+
+  /* .basket-card_trash-btn-svg,
+  .wish-list-card_trash-btn-svg,
+  .wish-list-card-plus-svg {
+    width: 35px;
+    height: 35px;
+  } */
+
+  .basket-all-products-card h4 {
+    /* font-size: 14px; */  
+    font-size: 16px;
+    transform: scale(0.9);
+    transform-origin: left;
+    letter-spacing: 0px;
+    line-height: 15px;
+  }
+
+  .basket-card .card-price, .wish-list-card .card-price { line-height: initial }
+
+  .basket-all-products-card { margin-bottom: 5px }
+
+  .basket-all-products-card p {
+    font-size: 18px;
+    /* line-height: 55px; */
+    line-height: initial;
+  }
+
+  .basket-all-products { margin-top: 25px }
+
+  .basket-all-products img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .basket-all-products-card-text-wrapp { width: 40% }
+
+  .basket-card-textarea-wrapp .form-control { height: 90px }
+}
+
+@media (width <= 510px) {
+  .basket-page-title, .wish-list-page-title {
+    /* font-size: 15px; */
+    font-size: 16px;
+    transform: scale(0.9);
+    transform-origin: left;
+    letter-spacing: 1px;
+    text-underline-offset: 4px;
+    line-height: initial;
+  }
+
+  .basket-page > p {
+    font-size: 12px !important;
+    margin-top: 12px;
+  }
+
+  .basket-card .card, .wish-list-card .card {
+    grid-template-columns: minmax(90px, 90px) 1fr minmax(110px, 100%);
+  }
+
+  .basket-card-img, .wish-list-card-img {
+    max-height: 90px;
+    max-width: 90px;
+    min-width: initial;
+  }
+
+  .basket-card .card-body { padding: 0 0 0 5px }
+
+  .basket-card .card-price, .wish-list-card .card-price {
+    font-size: 24px;
+    letter-spacing: initial;
+  }
+
+  .basket-page .card_trash-btn, .wish-list-card_trash-btn, .wish-list-card_plus-btn {
+    /* font-size: 12px; */
+  }
+
+  .basket-card_trash-btn-svg, .wish-list-card_trash-btn-svg, .wish-list-card-plus-svg {
+    width: 25px;
+    height: 25px;
+  }
+
+
+  .basket-page .card-title, .wish-list-page .card-title {
+    /* margin-top: 5px; */
+    margin-top: 0;
+    /* font-size: 13px; */
+    letter-spacing: 0px;
+    font-size: 16px;
+  }
+
+  .basket-card-textarea-wrapp .label-text-title { top: 10px }
+
+  .basket-all-products h3 {
+    /* font-size: 14px; */
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+
+  .basket-card-textarea-wrapp { padding-top: 10px }
+
+  .basket-card-textarea-wrapp .form-control {
+    font-size: 16px;
+    padding: 10px;
+    height: initial;
+  }
+
+  .basket-product-count, .wishlist-count {
+    width: 15px;
+    height: 15px;
+    font-size: 9px;
+    top: -8px;
+    right: -6px;
+  }
+
+  .basket-all-products img { margin-right: 10px }
+
+  /* .basket-all-products-card h4 { font-size: 10px } */
+
+  /* .basket-all-products-card p { font-size: 15px } */
+}

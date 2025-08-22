@@ -1,0 +1,116 @@
+.btn-fast-order {
+  background-color: #fff;
+  color: #000;
+  font-size: 27px;
+  line-height: 1;
+  border-radius: 5px;
+  border: 2px solid #66626b;
+  max-width: 212px;
+  padding: 6px 15px;
+  transition: all .3s ease;
+  outline: none;
+}
+
+.header-main-call-order-text .btn-fast-order {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 401;
+  font-family: "Montserrat";
+  background-color: transparent;
+  border: none;
+}
+
+.header-main-call-order-text .btn-fast-order:hover {
+  color: #000;
+}
+
+.main-page_second-cards-group .btn-fast-order,
+.main-page_third-cards-group .btn-fast-order {
+  max-width: 115px;
+  font-size: 18px;
+  padding: 1px 18px;
+}
+
+.btn-fast-order:hover {
+  border-color: #23615c !important;
+  color: #23615c;
+}
+
+.product-page .btn-fast-order {
+  width: initial;
+  display: block;
+  background-color: transparent;
+  margin: 0 auto;
+  max-width: initial;
+  border: none;
+  font-size: 26px;
+  font-family: "Montserrat";
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  font-weight: 401;
+  margin-top: 50px;
+  text-underline-offset: 7px;
+}
+
+.modal-fast-order-input {
+  width: 90%;
+  font-size: 21px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid #dee2e6;
+  font-weight: 401;
+}
+
+.fast-order-submit-btn {
+  background-color: #23615c;
+  color: #fff;
+  padding: 12px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 401;
+}
+
+.modal-fast-order-input.input-error {
+  border: 1px solid red; 
+}
+
+.modal-fast-order-wrapp .error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  position: absolute;
+  transform: translate(19%, -102%);
+  font-weight: 401;
+}
+
+.modal-fast-order-wrapp .popup-notification {
+  transform: translate(-1%, -100px);
+  width: 92%;
+}
+
+@media (width <= 992px) {
+  .product-page .btn-fast-order {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    text-align: left;
+    padding: 0; 
+    margin-top: 0;
+  }
+}
+
+@media (width <= 768px) {
+  .product-page .btn-fast-order {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .main-page_first-cards-group .btn-fast-order {
+    font-size: 15px;
+    padding: 1px 18px;
+    max-width: 101px;
+  }
+}

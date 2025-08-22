@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        font-size: 22px;
+        filter: url(#filter);
+        fill: #fff;
+        font-family: "Segoe MDL2 Assets";
+        text-transform: uppercase;
+      }
+    </style>
+    <filter id="filter" x="-0.5" y="-0.5" width="33" height="33" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="1.5" dy="2.598" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732"/>
+      <feFlood result="flood" flood-opacity="0.48"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#fff"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <g style="fill: #fff; filter: url(#filter)">
+    <text id="avatarka" class="cls-1" x="1.5" y="25.5" style="stroke: inherit; filter: none; fill: inherit"></text>
+  </g>
+  <use xlink:href="#avatarka" style="stroke: #fff; filter: none; fill: none"/>
+</svg>

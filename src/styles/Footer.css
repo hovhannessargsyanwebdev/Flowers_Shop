@@ -1,0 +1,329 @@
+.footer {
+  font-family: 'Montserrat';
+  font-weight: 401;
+  background-color: #333;
+  color: #fff;
+  margin: 25px auto 0;
+  padding: 40px 90px 15px;        
+}
+
+.footer-wrapp {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.footer-links-wrapp {
+  display: flex;
+  justify-content: space-between;
+  max-width: 432px;
+  width: 100%;
+}
+
+.footer-links-wrapp .footer-links-group {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link {  
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 4.5px 0;
+  border-bottom: 1px solid transparent;
+  transition: border-color .3s;
+}
+
+.footer-link:hover { border-color: #fff }
+
+.footer-about-contacts {
+  max-width: 320px;
+  width: 100%;
+}
+
+.footer-about-contacts .footer-contacts {
+  margin-bottom: 48px !important;
+  font-size: 18px;
+}
+
+.footer-about-contacts .footer-contacts > button,
+.footer-about-contacts .footer-contacts > a {
+  border-bottom: 1px solid transparent;
+  transition: border-color .3s;
+  color: #fff;
+  font-weight: 401;
+}
+
+.footer-about-contacts .footer-contacts > button:hover,
+.footer-about-contacts .footer-contacts > a:hover {
+  border-color: #fff;
+}
+
+.footer-about-contacts .footer-contacts:last-child { margin-bottom: initial !important }
+
+.footer-about-contacts img { margin-right: 15px }
+
+.footer-form-group {  
+  max-width: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.footer-form-group .form-control {
+  background-color: #484747;
+  border-color: #484747;
+  color: #fff;
+  border-radius: 15px;
+  margin-bottom: 35px;
+  font-size: 16px;
+  font-weight: 401;
+}
+
+.footer-form-group .form-control::placeholder { color: #888787 }
+
+.footer-form-group .form-control:focus {
+  border-color: #fff;
+  box-shadow: initial;
+}
+
+.footer-form-group a[download] {
+  display: flex;;
+  align-items: center;
+  color: #8b8a8a !important;
+  font-size: 16px;
+  border-bottom: 1px solid transparent;
+}
+
+.footer-form-group a[download]:hover { border-color: #484747 }
+
+.footer-form-group .footer-download-icon {
+  width: 18px;
+  height: 20px;
+  margin-right: 9px;
+}
+
+.footer-form-group:before {
+  content: "";
+  background-image: url('../images/icons/envelope.svg');
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 15px;
+  background-repeat: no-repeat;
+  transition: width .3s;
+  z-index: 2;
+  background-color: #484747;
+  fill: red;
+
+  &:focus {
+    fill: red;
+  }
+}
+
+.footer-messengers {
+  display: flex;
+  justify-content: space-between;
+  max-width: 95px;
+  width: 100%;
+}
+
+.footer-messengers img, .footer-messengers svg {
+  width: 31px;
+  height: 31px;
+  transition: all .3s cubic-bezier(0, 1.43, 0.93, 1.51);
+  border-radius: 0;
+}
+
+.footer-messengers a:first-child img:hover { border-radius: 50% }
+
+.footer-last-child-wrapp {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.footer-copyright-text {
+  color: #8b8a8a;
+  font-size: 18px;
+  margin-top: 34px;
+}
+
+.footer-banks-img {
+  margin-left: -26px;
+  height: 85px;
+  max-width: 814px;
+  min-width: 588px;
+  width: 100%;
+}
+
+.footer-input-chat-wrapp {
+  right: -75px;
+  bottom: 0;
+}
+
+.footer-input-chat {
+  position: relative;
+  max-width: 300px;
+  min-width: 174px;
+  width: 100%;
+  align-self: end;
+  margin-left: auto;
+}
+
+.footer-input-chat input {
+  width: 100%;
+  background-color: #ef1010;
+  color: #fff;
+  font-weight: 401;
+  outline: none;
+  border: transparent;
+  border-radius: 20px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 50px;
+}
+
+.footer-input-chat .chat-icon {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  transform: translate(50%, 50%);
+}
+
+.footer-input-chat .chat-icon-img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-input-chat input::placeholder {
+  color: #fff;
+  padding-left: 1em;
+  text-align: left;
+  content: ' ';
+}
+
+.footer-input-chat input:focus {
+  color: #fff;
+  background-color: initial;
+  border-color: #fff !important;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(149, 152, 157, 0.25);
+}
+
+@media (width <= 1300px) {
+    .footer { padding: 40px 50px 15px }
+    .footer-links-wrapp { max-width: 370px }
+
+}
+
+@media (width <= 1200px) {
+  .footer { padding: 40px 15px 15px }
+
+  .footer-links-wrapp { max-width: 365px }
+
+  .footer-about-contacts {
+    max-width: 265px;
+    text-align: center;
+  }
+
+  .footer-about-contacts .footer-contacts { margin-bottom: 30px !important }
+  
+  .footer-form-group { max-width: 295px }
+
+  .footer-messengers { margin-top: 10px }
+}
+
+@media (width <= 992px) {
+  .footer-links-wrapp { min-width: 330px }
+
+  .footer-about-contacts { max-width: 210px }
+
+  .footer-about-contacts .footer-contacts {
+    margin-bottom: 15px !important;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .footer-about-contacts img { margin-right: 8px }
+
+  .footer-form-group {
+    max-width: 240px;
+    text-align: center;
+  }
+
+  .footer-form-group a[download] { display: initial }
+
+  .footer-form-group .footer-download-icon { margin-right: 5px }
+
+  .footer-input-chat { align-self: initial }
+  
+}
+
+@media (width <= 768px) {
+  .footer-links-wrapp {
+    min-width: 305px
+  }
+
+  .footer-about-contacts {
+    max-width: initial;
+    text-align: right;
+    margin-left: -82px;
+  }
+
+  .footer-about-contacts .footer-contacts { margin-bottom: 10px !important }
+  
+  .footer-messengers {
+    margin-left: auto;
+    margin-top: -40px;
+  }
+
+  .footer-form-group,
+  .footer-input-chat,
+  .footer-copyright-text,
+  .footer-banks-img { 
+    display: none
+  }
+
+  .footer-link { font-size: 16px }
+
+  .footer-last-child-wrapp { margin-top: 15px }
+}
+
+@media (width <= 510px) {
+  .footer { padding: 15px 5px }
+
+  .footer-link {
+    font-size: 9px;
+    margin: 7.5px 0;
+  }
+
+  .footer-about-contacts .footer-contacts { font-size: 9px }
+
+  .footer-links-wrapp { min-width: 160px }
+
+  .footer-about-contacts { margin-left: initial }
+
+  .footer-about-contacts img {
+    margin-right: 3px;
+    width: 12px;
+    height: 20px;
+  }
+
+  .footer-last-child-wrapp { margin-top: 0 }
+
+  .footer-messengers img,
+  .footer-messengers svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-messengers {
+    max-width: 55px;
+    margin-top: -28px
+  }
+}

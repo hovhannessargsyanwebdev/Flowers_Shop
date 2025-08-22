@@ -1,0 +1,114 @@
+.btn-order {
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #888383;
+  outline: none;
+  border: none;
+  font-family: "Trebuchet MS";
+  border-radius: 10px;
+  margin-left: auto;
+  padding: 7.5px clamp(10px, 3%, 200px);
+  transition: background-color .3s ease-in-out;
+  -Webkit-box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.58);
+  -Moz-box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.58);
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.58)
+}
+.btn-order:hover {
+  background-color: #23615c;
+}
+
+.main-page_second-cards-group .btn-order,
+.main-page_third-cards-group .btn-order {
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: 1px;
+  font-family: "Trebuchet MS";
+  filter: drop-shadow(1px 1.732px 1px rgba(0, 0, 0, 0.3));
+}
+
+/* PRODUCT PAGE */
+.product-page .btn-order {
+  font-size: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  filter: drop-shadow(1px 1.732px 1px rgba(0,0,0,0.3));  
+}
+
+.product-page .button-fast-order {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  color: white;
+  padding: 10px 20px; 
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+@media (width <= 1200px) {
+  .product-page .btn-order {
+    font-size: 32px;
+    padding: 5px clamp(10px, 2%, 100px);
+  }
+
+  .main-page_first-cards-group .btn-order {
+    font-size: 27px;
+    padding: 10.5px clamp(10px, 3%, 200px);
+  }
+
+  .main-page_second-cards-group .card-body,
+  .main-page_third-cards-group .card-body {
+    padding: 8px 10px;
+  }
+
+  [data-calc="subtract"], [data-calc="addit"] { padding: 5px clamp(5px, 15px, 25.8px) }
+}
+
+@media (width <= 992px) {
+  .product-page .btn-order {
+    padding: 5.5px clamp(6px, 0%, 100px);
+    font-size: 21px;
+    width: 90%;
+  }
+
+  .main-page_first-cards-group .btn-order {
+    font-size: 24px;
+    padding: 8.5px clamp(10px, 3%, 200px);
+  }
+
+  .main-page_second-cards-group .btn-order,
+  .main-page_third-cards-group .btn-order {
+    font-size: 16px;
+  }
+}
+
+@media (width <= 768px) {
+  .main-page_first-cards-group .btn-order,
+  .main-page_second-cards-group .btn-order,
+  .main-page_third-cards-group .btn-order {
+    font-size: 17px;
+  }
+  
+  .product-page .btn-order {
+    width: initial;
+    margin-top: initial;
+    display: block;
+    margin-left: auto;
+  }
+}
+
+@media (width <= 510px) {
+  .main-page_first-cards-group .btn-order,
+  .main-page_second-cards-group .btn-order,
+  .main-page_third-cards-group .btn-order {
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 3px clamp(4px, 2%, 200px);
+    line-height: inherit;
+  }
+}
